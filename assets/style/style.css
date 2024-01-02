@@ -5,4 +5,50 @@
   text-decoration: none;
   list-style: none;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
+
+/* Hero Section */
+
+.hero-content {
+  position: relative;
+  width: auto;
+  height: 100vh;
+  padding: 0px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.hero-title h1 {
+  /* background-color: red; */
+  color: #20409a;
+  font-size: 6em;
+  font-weight: 900;
+  font-style: italic;
+  width: 40rem;
+}
+
+.hero-title h1 span {
+  color: #27a997;
+}
+.btn-hero a {
+  text-decoration: none;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ffc73c;
+  padding: 10px 25px;
+  border-radius: 100px;
+  box-shadow: 0px 18px 40px 12px #ffd36759;
+  transition: 0.3s;
+}
+
+.btn-hero a:hover {
+  background-color: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px #ff9a3c40;
+}
+
+/* End Hero Section */

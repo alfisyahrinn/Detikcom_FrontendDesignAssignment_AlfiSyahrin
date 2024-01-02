@@ -52,3 +52,95 @@
 }
 
 /* End Hero Section */
+
+/* daftar Section */
+#daftar {
+  margin-top: 58px;
+}
+.card-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 32px;
+  border-radius: 32px;
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+}
+
+.card-left .img-daftar {
+  width: 518px;
+  height: 388px;
+}
+.card-left .daftar-text {
+  padding: 0 32px;
+}
+
+.daftar-text h1 {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.daftar-text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100;
+}
+.card-right {
+  border-radius: 32px;
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+  display: flex;
+  width: 582px;
+  padding: 32px;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-right h1 {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 900;
+}
+.card-right p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-right-img .img-daftar {
+  border-radius: 20px;
+  width: 178px;
+  height: 178px;
+}
+.card-right-img {
+  border-radius: 32px;
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+  display: flex;
+  width: 582px;
+  padding: 32px;
+  gap: 30px;
+}
+
+.card-right-img h1 {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 900;
+}
+.card-right-img p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.daftar-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+/* End daftar Section */
